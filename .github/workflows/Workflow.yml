@@ -1,0 +1,8 @@
+name: 'Pizza Workflow'
+on: [push]
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      run: |
+        echo "Fast React Pizza Application Running..."
