@@ -4,5 +4,6 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      run: |
-        echo "Fast React Pizza Application Running..."
+      - name: 'Pizza Application Workflow'
+        run: |
+          echo "Done"
